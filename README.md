@@ -70,7 +70,7 @@ I created a rake task, that pulls a csv file and loads the data into the databas
 
 I created a single table, providers. In order to keep page load times down, although it took little bit extra work up front I stored the querable dollar amounts as both their displayed string, as well as a converted to cents integer. If I had more time, I would add in a data cleanser that would make sure each attribute was in the correct format. For example all states would be stored in a consistent format ("CO", vs "co", vs "Co" vs "Colorado"). I would also add in more model validations based on those requirements.
 
-### assumptions
+### Assumptions
 
 This was was designed with the following assumptions:
 - The dataset provided has already been cleansed and in correct formats.
@@ -79,9 +79,9 @@ This was was designed with the following assumptions:
 - There isn't a need for a sorted return
 
 ### Deliverables
--[x] An API endpoint that implements the url ending with `/providers`
--[x] Every possible combination of query string parameters works
--[x] Some datastore is used
--[x] Your API returns valid JSON
--[x] Automated tests (i.e. tests that can be run from command line)
--[x] A writeup/README describing your architecture, solutions, and assumptions  made
+- [x] An API endpoint that implements the url ending with `/providers`
+- [x] Every possible combination of query string parameters works
+- [x] Some datastore is used
+- [x] Your API returns valid JSON
+- [x] Automated tests (i.e. tests that can be run from command line)
+- [x] A writeup/README describing your architecture, solutions, and assumptions  made
