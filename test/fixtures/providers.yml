@@ -1,0 +1,55 @@
+one:
+  name: "GADSDEN MEDICAL CENTER"
+  street: "1007 GOODYEAR AVE"
+  city: "GADSDEN"
+  state: "AL"
+  zipcode: "35903"
+  referral: "AL- B"
+  total_discharges: 340
+  average_covered_charges: "$233.38"
+  average_covered_charges_in_cents: 23338
+  average_total_payments: "$5,541.05"
+  average_medicare_payments: "$4,386.94"
+  average_medicare_payments_in_cents: 438694
+
+two:
+  name: "ANOTHER REGIONAL MEDICAL CENTER"
+  street: "123 Main st"
+  city: "Small town"
+  state: "CO"
+  zipcode: "80203"
+  referral: "CO - Small town"
+  total_discharges: 450
+  average_covered_charges: "$5,233.38"
+  average_covered_charges_in_cents: 523338
+  average_total_payments: "$25,541.05"
+  average_medicare_payments: "$34,386.94"
+  average_medicare_payments_in_cents: 3438694
+
+three:
+  name: "REALLY BIG MEDICAL CENTER"
+  street: "555 Market"
+  city: "San Francisco"
+  state: "CA"
+  zipcode: "94117"
+  referral: "CA - SF"
+  total_discharges: 575
+  average_covered_charges: "$15,233.38"
+  average_covered_charges_in_cents: 1523338
+  average_total_payments: "$541.05"
+  average_medicare_payments: "$202,386.94"
+  average_medicare_payments_in_cents: 20238694
+
+four:
+  name: "AVERAGE CENTER"
+  street: "333 Fillmore"
+  city: "Chicago"
+  state: "IL"
+  zipcode: "60014"
+  referral: "IL - Chicago"
+  total_discharges: 999
+  average_covered_charges: "$99,233.00"
+  average_covered_charges_in_cents: 9923300
+  average_total_payments: "$5,801.05"
+  average_medicare_payments: "$800,386.99"
+  average_medicare_payments_in_cents: 80038699
