@@ -19,17 +19,17 @@ class ProviderProcessor
       state: data[:provider_state],
       zipcode: data[:provider_zip_code],
       referral: data[:hospital_referral_region_description],
-      total_discharges: data[:_total_discharges_].to_i,
-      average_covered_charges: data[:_average_covered_charges_],
+      total_discharges: data[:total_discharges].to_i,
+      average_covered_charges: data[:average_covered_charges],
       average_covered_charges_in_cents: average_covered_charges_in_cents,
-      average_total_payments: data[:_average_total_payments_],
+      average_total_payments: data[:average_total_payments],
       average_medicare_payments: data[:average_medicare_payments],
       average_medicare_payments_in_cents: average_medicare_payments_in_cents
     }
   end
 
   def average_covered_charges_in_cents
-    to_cents(data[:_average_covered_charges_])
+    to_cents(data[:average_covered_charges])
   end
 
   def average_medicare_payments_in_cents
