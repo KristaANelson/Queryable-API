@@ -65,7 +65,7 @@ $ rake test
 See this live at https://queryable-api.herokuapp.com/api/v1/providers
 
 ### architecture, solutions, and future improvements
-- I used a standard api/v1 nesting structure in order to support new versions in the future.
+I used a standard api/v1 nesting structure in order to support new versions in the future.
 I created a rake task, that pulls a csv file and loads the data into the database. If I had more time, I would add in functionality to pull from a remote file as well as a file stored locally and add a set of tests for the services.
 
 I created a single table, providers. In order to keep page load times down, although it took little bit extra work up front I stored the querable dollar amounts as both their displayed string, as well as a converted to cents integer. If I had more time, I would add in a data cleanser that would make sure each attribute was in the correct format. For example all states would be stored in a consistent format ("CO", vs "co", vs "Co" vs "Colorado"). I would also add in more model validations based on those requirements.
